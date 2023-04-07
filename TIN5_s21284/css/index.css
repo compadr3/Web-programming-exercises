@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css?family=Barlow|Tomorrow:400,700&display=swap");
+
+:root {
+    --yellow-color: #fcee09;
+    --red-color: #ff003c;
+    --black-color: #050a0e;
+    --blue-color: #00f0ff;
+}
+
+body{
+    margin: 0;
+    font-family: Tomorrow, sans-serif;
+}
+
+.navbar{
+    position: absolute;
+    background-color: var(--yellow-color);
+    top: 0;
+    width: 100%;
+}
+
+.navbar li{
+    display: inline-block;
+    padding: 15px;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: var(--black-color);
+}
+.navbar a:hover{
+    color: var(--red-color);
+}
+
+a.red {
+    color: var(--red-color);
+}
+
+.banner{
+    margin-top: 100px;
+    margin-bottom: 18px;
+    background-color: var(--yellow-color);
+    color: var(--black-color);
+    padding: 20px 25px;
+    text-align: center;
+
+}
+
+#logo{
+    height: 70px;
+    width: 126px;
+}
+
+.btn-group button {
+    background-color: var(--yellow-color);
+    color: var(--black-color);
+    padding: 10px 24px;
+    cursor: pointer;
+    width: 50%;
+    display: inline-block;
+}
+
+.btn-group button:not(:last-child) {
+    border-bottom: none; /* Prevent double borders */
+}
+
+.btn-group button:hover {
+    background-color: var(--blue-color);
+}
+
+.middle {
+    background-color: var(--black-color);
+    color: var(--yellow-color);
+    padding: 20px 25px;
+    text-align: center;
+}
+
+.content-table{
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    min-width: 400px;
+}
+.content-table thead tr{
+    background-color: grey;
+    color: var(--black-color);
+    text-align: center;
+}
+.content-table th, .content-table td{
+    padding: 12px 15px;
+}
+
+.content-table tbody tr {
+    border-bottom: 1px solid var(--black-color);
+}
+
+.content-table tbody tr:nth-of-type(even){
+    background-color: lightgrey;
+}
+
+#quizStock{
+    width: 100%;
+}
+
+.footer{
+    background-color: var(--yellow-color);
+    color: var(--black-color);
+    padding: 20px 25px;
+}
+.footer li{
+    display: inline-block;
+}
+.footer a{
+    text-decoration: none;
+    color: var(--black-color);
+    margin-left: 50px;
+}
+
+.footer a:hover{
+    color: var(--red-color);
+    text-decoration: none;
+}

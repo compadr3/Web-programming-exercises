@@ -1,2 +1,2 @@
 # TIN
-![image](https://user-images.githubusercontent.com/127340395/233837867-7f304965-db3c-430f-ac69-1e2edc20f7ed.png)
+![image](https://user-images.githubusercontent.com/127340395/233837999-4fbab96a-cecd-40c3-94fe-3aaf2b6b31f8.png)
